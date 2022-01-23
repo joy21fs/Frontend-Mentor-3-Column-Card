@@ -1,0 +1,92 @@
+body {
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(0, 0%, 95%);
+
+}
+
+h1 {
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+p {
+  font: 15px "Lexend Deca";
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+  margin: 30px auto;
+}
+
+button {
+  font: 15px "Lexend Deca";
+  font-weight: 400;
+  padding: 15px 30px;
+  background-color: hsl(0, 0%, 95%);
+  border-style: none;
+  border-radius: 2rem;
+}
+
+.container {
+  width: 330px;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  padding: 3rem;
+
+}
+
+.sedan-column {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.sedan-column button{
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-column {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suv-column button{
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-column {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.luxury-column button {
+  color: hsl(179, 100%, 13%);
+}
+
+@media (min-width: 1000px) {
+  .container {
+    flex-direction: row;
+    width: 900px;
+    height:60%;
+  }
+
+  button {
+    margin-top: 3rem;
+  }
+}
