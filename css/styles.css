@@ -5,8 +5,10 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: hsl(0, 0%, 95%);
+  height: 100vh;
 
 }
+
 
 h1 {
   font-family: 'Big Shoulders Display';
@@ -32,9 +34,11 @@ button {
   border-radius: 2rem;
 }
 
+
+
 .container {
   width: 330px;
-  margin: 4rem auto;
+  margin: 3rem auto;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -83,7 +87,7 @@ button {
   .container {
     flex-direction: row;
     width: 900px;
-    height:60%;
+    /* height:60%; */
   }
 
   button {
